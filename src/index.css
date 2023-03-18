@@ -1,11 +1,44 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Rubik:wght@300;600&display=swap");
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background: black;
+}
+h4,
+h1,
+p,
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
 }

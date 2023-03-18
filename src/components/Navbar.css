@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+}
+.navlinks li {
+  padding: 0 1.2rem;
+}
+.navlinks li a {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .navlinks {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -3;
+    transition: 1s;
+  }
+  .navlinks.active {
+    left: 0;
+  }
+  .navlinks li {
+    padding: 1rem 0;
+  }
+  .navlinks li a {
+    font-size: 2rem;
+  }
+  .hamburger {
+    display: initial;
+  }
+}
