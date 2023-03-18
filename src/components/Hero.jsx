@@ -10,7 +10,9 @@ const Hero = () => {
         <img className="bg-img" src={IntroBg} alt="" />
       </div>
       <div className="content">
-        <p>HEY GUYS, MY NAME IS EJIRO</p>
+        <p>
+          HEY GUYS, MY NAME IS EJIRO <br /> AND I'M A
+        </p>
         <h1>Frontend Developer</h1>
         <div>
           <Link to="/project" className="btn">

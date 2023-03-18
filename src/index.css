@@ -8,7 +8,10 @@
   font-family: "Outfit", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
-  background: black;
+}
+
+body {
+  background: #fff;
 }
 h4,
 h1,
